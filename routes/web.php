@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 
-Route::get('/students',[StudentController::class, 'index']);
-Route::get('/',[StudentController::class, 'dashboard']);
+Route::get('/',[StudentController::class, 'index']);
 
 
